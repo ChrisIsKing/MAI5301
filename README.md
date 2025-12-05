@@ -71,11 +71,6 @@ We will read recent papers from top venues including ACL, EMNLP, NAACL, ICML, Ne
 |  | [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135) |  |
 |  | [FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning](https://arxiv.org/abs/2307.08691) |  |
 |  | [Longformer: The Long-Document Transformer](https://arxiv.org/abs/2004.05150) |  |
-|  | [Fast Transformer Decoding: One Write-Head is All You Need (Multi-Query Attention)](https://arxiv.org/abs/1911.02150) |  |
-|  | [GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints](https://arxiv.org/abs/2305.13245) |  |
-|  | **Position Encodings:** |  |
-|  | [RoFormer: Enhanced Transformer with Rotary Position Embedding (RoPE)](https://arxiv.org/abs/2104.09864) |  |
-|  | [Train Short, Test Long: Attention with Linear Biases (ALiBi)](https://arxiv.org/abs/2108.12409) |  |
 |  | *Students may propose alternative papers with instructor approval.* |  |
 
 *Weeks 7-15 will continue with student-led presentations on additional topics.*
