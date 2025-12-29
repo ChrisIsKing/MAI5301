@@ -72,6 +72,55 @@ We will read recent papers from top venues including ACL, EMNLP, NAACL, ICML, Ne
 |  | [FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning](https://arxiv.org/abs/2307.08691) |  |
 |  | [Longformer: The Long-Document Transformer](https://arxiv.org/abs/2004.05150) |  |
 |  | *Students may propose alternative papers with instructor approval.* |  |
+|  | **Fine-tuning & Adaptation** |  |
+| Week 7-8 | *Paper Pool (students select 2 papers each):* |  |
+|  | **Parameter-Efficient Fine-tuning:** |  |
+|  | [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685) |  |
+|  | [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314) |  |
+|  | [Prefix-Tuning: Optimizing Continuous Prompts for Generation](https://arxiv.org/abs/2101.00190) |  |
+|  | **Instruction Fine-tuning:** |  |
+|  | [Self-Instruct: Aligning LM with Self Generated Instructions](https://arxiv.org/abs/2212.10560) |  |
+|  | [Alpaca: A Strong, Replicable Instruction-Following Model](https://crfm.stanford.edu/2023/03/13/alpaca.html) |  |
+|  | [WizardLM: Empowering Large Language Models to Follow Complex Instructions](https://arxiv.org/abs/2304.12244) |  |
+|  | *Students may propose alternative papers with instructor approval.* |  |
+|  | **Alignment & Reasoning** |  |
+| Week 9-10 | *Paper Pool (students select 2 papers each):* |  |
+|  | **Alignment:** |  |
+|  | [Training language models to follow instructions with human feedback (InstructGPT)](https://arxiv.org/abs/2203.02155) |  |
+|  | [Direct Preference Optimization (DPO)](https://arxiv.org/abs/2305.18290) |  |
+|  | [Constitutional AI: Harmlessness from AI Feedback](https://arxiv.org/abs/2212.08073) |  |
+|  | **Reasoning:** |  |
+|  | [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903) |  |
+|  | [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) |  |
+|  | [Let's Verify Step by Step (Process Supervision)](https://arxiv.org/abs/2305.20050) |  |
+|  | *Students may propose alternative papers with instructor approval.* |  |
+|  | **Inference & Optimization** |  |
+| Week 11-12 | *Paper Pool (students select 2 papers each):* |  |
+|  | **Efficient Inference:** |  |
+|  | [Speculative Decoding: Fast Inference from Transformers](https://arxiv.org/abs/2211.17192) |  |
+|  | [Fast Inference from Transformers via Speculative Decoding](https://arxiv.org/abs/2302.01318) |  |
+|  | [PagedAttention: vLLM for Efficient Memory Management](https://arxiv.org/abs/2309.06180) |  |
+|  | **Quantization & Compression:** |  |
+|  | [GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers](https://arxiv.org/abs/2210.17323) |  |
+|  | [AWQ: Activation-aware Weight Quantization for LLM Compression](https://arxiv.org/abs/2306.00978) |  |
+|  | [SmoothQuant: Accurate and Efficient Post-Training Quantization](https://arxiv.org/abs/2211.10438) |  |
+|  | *Students may propose alternative papers with instructor approval.* |  |
+|  | **Agentic Systems** |  |
+| Week 13 (Tue) | *Paper Pool (students select 1 paper each):* |  |
+|  | [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) |  |
+|  | [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/abs/2302.04761) |  |
+|  | [Gorilla: Large Language Model Connected with Massive APIs](https://arxiv.org/abs/2305.15334) |  |
+|  | [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) |  |
+|  | *Students may propose alternative papers with instructor approval.* |  |
+|  | **Ethics, Safety & Societal Impact** |  |
+| Week 13 (Thu) - 14 | *Paper Pool (students select 1 paper each):* |  |
+|  | [On the Dangers of Stochastic Parrots](https://dl.acm.org/doi/10.1145/3442188.3445922) |  |
+|  | [Red Teaming Language Models to Reduce Harms](https://arxiv.org/abs/2209.07858) |  |
+|  | [Challenges and Applications of Large Language Models](https://arxiv.org/abs/2307.10169) |  |
+|  | [Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288) (Safety section) |  |
+|  | *Students may propose alternative papers with instructor approval.* |  |
+| Week 15 | **Final Presentations & Course Wrap-up** | All Students |
+|  | Project demonstrations and course reflections |  |
 
 *Weeks 7-15 will continue with student-led presentations on additional topics.*
 
@@ -144,11 +193,31 @@ Given the discussion-based nature of this course, participation is required both
 You are expected to attend **all** lectures and participate in class discussions.
 
 ### Coding Assignments
-Progressive coding assignments will be distributed throughout the semester, designed to build LLM components from scratch and provide hands-on experience with transformer architecture and training.
+
+This course includes **5 progressive coding assignments** (30% of grade) based on Sebastian Raschka's book **"Build a Large Language Model (From Scratch)"**.
+
+**[View Complete Assignment Details →](assignments/README.md)**
+
+📚 **Book**: [Build a Large Language Model (From Scratch)](https://www.manning.com/books/build-a-large-language-model-from-scratch) by Sebastian Raschka  
+🔗 **Code Repository**: [github.com/rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
+
+#### Assignment Schedule
+
+| Assignment | Topic | Chapters | Due Date | Weight |
+|------------|-------|----------|----------|--------|
+| **A1** | Tokenization & Data Preparation | Ch 2 | Sun, Jan 18, 2026 | 5% |
+| **A2** | Attention Mechanisms | Ch 3 | Sun, Feb 1, 2026 | 5% |
+| **A3** | GPT Model Architecture | Ch 4 | Sun, Feb 15, 2026 | 6% |
+| **A4** | Pretraining from Scratch | Ch 5 | Sun, Mar 1, 2026 | 7% |
+| **A5** | Advanced Fine-tuning (choice: Classification, Instruction, or LoRA) | Ch 6/7/AppE | Sun, Mar 22, 2026 | 7% |
+
+📌 **Learning Progression**: Starting from tokenization, you'll progressively build up to a complete GPT-style model, train it from scratch, and fine-tune it for specific tasks.
+
+📌 **Implementation Requirements**: All assignments must be implemented from scratch using PyTorch, with clear documentation and explanations. You may reference the book's code but must demonstrate your own understanding.
 
 📌 **Late Policy**: Coding assignments cannot be turned in late unless an extension is granted at least 24 hours before the submission deadline.
 
-📌 **Implementation Requirements**: All assignments must be implemented from scratch using PyTorch, with clear documentation and explanations.
+📌 **Office Hours**: Make use of office hours for debugging and conceptual questions about the assignments.
 
 ## Tentative Grading
 
