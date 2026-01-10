@@ -1,0 +1,7 @@
+**Dolma: An Open Corpus of Three Trillion Tokens for LLM Pretraining Research**
+
+This paper presents Dolma, a very large open dataset with about three trillion tokens that is designed for training large language models. The main reason for this research is that many powerful language models today are trained on datasets that are not shared or clearly explained, which makes it hard for other researchers to study or reproduce results. The authors want to fix this problem by offering a transparent and openly available dataset that reflects what is commonly used in pretraining.
+
+Dolma is made from many different types of text, including web pages, scientific papers, programming code, books, encyclopedic sources, and social media content. The paper explains the full process of how the data was collected and prepared, such as cleaning, filtering, removing duplicates, and deciding how much data from each source should be included. A big focus is placed on documenting these steps clearly so others can understand and reuse the process. The authors also release tools that were used to build the dataset, which helps with reproducibility.
+
+To test the quality of Dolma, the authors run training experiments and look at how models perform on different tasks. The results show that the dataset supports strong learning and that data choices can noticeably affect outcomes. Overall, the goals of the paper are met, and the work is very relevant for future open and responsible AI research.
