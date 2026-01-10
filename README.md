@@ -62,18 +62,56 @@ We will read recent papers from top venues including ACL, EMNLP, NAACL, ICML, Ne
 | Week 4 (Thu) | [Dolma: An Open Corpus of Three Trillion Tokens for LLM Pretraining Research](https://arxiv.org/abs/2402.00159) (Required) | Feliciann Elliot |
 |  | [The Pile: An 800GB Dataset of Diverse Text for Language Modeling](https://arxiv.org/abs/2101.00027) (Required) |  |
 |  | **Model Architectures** |  |
-| Week 5-6 | *Paper Pool (students select 2 papers each):* |  |
-|  | **Mixture-of-Experts:** |  |
-|  | [Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity](https://arxiv.org/abs/2101.03961) |  |
-|  | [Mixtral of Experts](https://arxiv.org/abs/2401.04088) |  |
-|  | [DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models](https://arxiv.org/abs/2401.06066) |  |
-|  | **Efficient Attention:** |  |
-|  | [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135) |  |
-|  | [FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning](https://arxiv.org/abs/2307.08691) |  |
-|  | [Longformer: The Long-Document Transformer](https://arxiv.org/abs/2004.05150) |  |
-|  | *Students may propose alternative papers with instructor approval.* |  |
-
-*Weeks 7-15 will continue with student-led presentations on additional topics.*
+| Week 5 (Tue) | [Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity](https://arxiv.org/abs/2101.03961) (Required) | Daryl Nelson |
+|  | [Mixtral of Experts](https://arxiv.org/abs/2401.04088) (Required) |  |
+| Week 5 (Thu) | [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135) (Required) | Hilton Sarius |
+|  | [Longformer: The Long-Document Transformer](https://arxiv.org/abs/2004.05150) (Required) |  |
+| Week 6 (Tue) | [RoFormer: Enhanced Transformer with Rotary Position Embedding](https://arxiv.org/abs/2104.09864) (Required) | Maryam Bacchus |
+|  | [Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation (ALiBi)](https://arxiv.org/abs/2108.12409) (Required) |  |
+| Week 6 (Thu) | [GLU Variants Improve Transformer (SwiGLU)](https://arxiv.org/abs/2002.05202) (Required) | Feliciann Elliot |
+|  | [GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints](https://arxiv.org/abs/2305.13245) (Required) |  |
+|  | **Alignment & Instruction Tuning** |  |
+| Week 7 (Tue) | [Training language models to follow instructions with human feedback (InstructGPT)](https://arxiv.org/abs/2203.02155) (Required) | Daryl Nelson |
+|  | [Scaling Instruction-Finetuned Language Models (FLAN)](https://arxiv.org/abs/2210.11416) (Required) |  |
+| Week 7 (Thu) | [Direct Preference Optimization: Your Language Model is Secretly a Reward Model (DPO)](https://arxiv.org/abs/2305.18290) (Required) | Hilton Sarius |
+|  | [KTO: Model Alignment as Prospect Theoretic Optimization](https://arxiv.org/abs/2402.01306) (Required) |  |
+|  | **Reasoning & "System 2" Thinking** |  |
+| Week 8 (Tue) | [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903) (Required) | Maryam Bacchus |
+|  | [Self-Consistency Improves Chain of Thought Reasoning in Language Models](https://arxiv.org/abs/2203.11171) (Required) |  |
+| Week 8 (Thu) | [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) (Required) | Feliciann Elliot |
+|  | [Let's Verify Step by Step (Process Reward Models)](https://arxiv.org/abs/2305.20050) (Required) |  |
+|  | **Inference Economics** |  |
+| Week 9 (Tue) | [Efficient Memory Management for Large Language Model Serving with PagedAttention (vLLM)](https://arxiv.org/abs/2309.06180) (Required) | Daryl Nelson |
+|  | [Flash-Decoding: Faster Attention for Long Context Inference](https://crfm.stanford.edu/2023/10/12/flashdecoding.html) (Required) |  |
+| Week 9 (Thu) | [Fast Inference from Transformers via Speculative Decoding](https://arxiv.org/abs/2211.17192) (Required) | Hilton Sarius |
+|  | [Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads](https://arxiv.org/abs/2401.10774) (Required) |  |
+|  | **Evaluation & Benchmarks** |  |
+| Week 10 (Tue) | [Measuring Massive Multitask Language Understanding (MMLU)](https://arxiv.org/abs/2009.03300) (Required) | Maryam Bacchus |
+|  | [Holistic Evaluation of Language Models (HELM)](https://arxiv.org/abs/2211.09110) (Required) |  |
+| Week 10 (Thu) | [Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference](https://arxiv.org/abs/2403.04132) (Required) | Feliciann Elliot |
+|  | [AlpacaEval: An Automatic Evaluator of Instruction-following Models](https://github.com/tatsu-lab/alpaca_eval) (Required) |  |
+|  | **Agents & Agentic Systems** |  |
+| Week 11 (Tue) | [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) (Required) | Daryl Nelson |
+|  | [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) (Required) |  |
+| Week 11 (Thu) | [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/abs/2302.04761) (Required) | Hilton Sarius |
+|  | [Gorilla: Large Language Model Connected with Massive APIs](https://arxiv.org/abs/2305.15334) (Required) |  |
+| Week 12 (Tue) | [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) (Required) | Maryam Bacchus |
+|  | [CAMEL: Communicative Agents for "Mind" Exploration of Large Scale Society](https://arxiv.org/abs/2303.17760) (Required) |  |
+| Week 12 (Thu) | [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291) (Required) | Feliciann Elliot |
+|  | [SWE-bench: Can Language Models Resolve Real-World GitHub Issues?](https://arxiv.org/abs/2310.06770) (Required) |  |
+| Week 13 (Tue) | [WebArena: A Realistic Web Environment for Building Autonomous Agents](https://arxiv.org/abs/2307.13854) (Required) | Daryl Nelson |
+|  | [Mind2Web: Towards a Generalist Agent for the Web](https://arxiv.org/abs/2306.06070) (Required) |  |
+| Week 13 (Thu) | [OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks](https://arxiv.org/abs/2404.07972) (Required) | Hilton Sarius |
+|  | [AppAgent: Multimodal Agents as Smartphone Users](https://arxiv.org/abs/2312.13771) (Required) |  |
+|  | **Safety, Risks & The Future** |  |
+| Week 14 (Tue) | [Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training](https://arxiv.org/abs/2401.05566) (Required) | Maryam Bacchus |
+|  | [Goal Misgeneralization in Deep Reinforcement Learning](https://arxiv.org/abs/2105.14111) (Required) |  |
+| Week 14 (Thu) | [Constitutional AI: Harmlessness from AI Feedback](https://arxiv.org/abs/2212.08073) (Required) | Feliciann Elliot |
+|  | [Red Teaming Language Models to Reduce Harms](https://arxiv.org/abs/2209.07858) (Required) |  |
+| Week 15 (Tue) | [GPTs are GPTs: An Early Look at the Labor Market Impact Potential](https://arxiv.org/abs/2303.10130) (Required) | Daryl Nelson |
+|  | [Future of Work with AI Agents: Auditing Automation and Augmentation Potential](https://arxiv.org/abs/2506.06576) (Required) | Maryam Bacchus |
+| Week 15 (Thu) | [Levels of Autonomy for AI Agents](https://arxiv.org/abs/2506.12469) (Required) | Hilton Sarius |
+|  | [Sparks of Artificial General Intelligence: Early experiments with GPT-4](https://arxiv.org/abs/2303.12712) (Required) | Feliciann Elliot |
 
 ## Policies
 
@@ -144,11 +182,31 @@ Given the discussion-based nature of this course, participation is required both
 You are expected to attend **all** lectures and participate in class discussions.
 
 ### Coding Assignments
-Progressive coding assignments will be distributed throughout the semester, designed to build LLM components from scratch and provide hands-on experience with transformer architecture and training.
+
+This course includes **5 progressive coding assignments** (30% of grade) based on Sebastian Raschka's book **"Build a Large Language Model (From Scratch)"**.
+
+**[View Complete Assignment Details →](assignments/README.md)**
+
+📚 **Book**: [Build a Large Language Model (From Scratch)](https://www.manning.com/books/build-a-large-language-model-from-scratch) by Sebastian Raschka  
+🔗 **Code Repository**: [github.com/rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
+
+#### Assignment Schedule
+
+| Assignment | Topic | Chapters | Due Date | Weight |
+|------------|-------|----------|----------|--------|
+| **A1** | Tokenization & Data Preparation | Ch 2 | Sun, Jan 18, 2026 | 5% |
+| **A2** | Attention Mechanisms | Ch 3 | Sun, Feb 1, 2026 | 5% |
+| **A3** | GPT Model Architecture | Ch 4 | Sun, Feb 15, 2026 | 6% |
+| **A4** | Pretraining from Scratch | Ch 5 | Sun, Mar 1, 2026 | 7% |
+| **A5** | Advanced Fine-tuning (choice: Classification, Instruction, or LoRA) | Ch 6/7/AppE | Sun, Mar 22, 2026 | 7% |
+
+📌 **Learning Progression**: Starting from tokenization, you'll progressively build up to a complete GPT-style model, train it from scratch, and fine-tune it for specific tasks.
+
+📌 **Implementation Requirements**: All assignments must be implemented from scratch using PyTorch, with clear documentation and explanations. You may reference the book's code but must demonstrate your own understanding.
 
 📌 **Late Policy**: Coding assignments cannot be turned in late unless an extension is granted at least 24 hours before the submission deadline.
 
-📌 **Implementation Requirements**: All assignments must be implemented from scratch using PyTorch, with clear documentation and explanations.
+📌 **Office Hours**: Make use of office hours for debugging and conceptual questions about the assignments.
 
 ## Tentative Grading
 
