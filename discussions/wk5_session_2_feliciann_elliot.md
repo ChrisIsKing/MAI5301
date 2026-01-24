@@ -27,4 +27,4 @@ Longformer also focuses primarily on encoder-based tasks and does not directly a
 Future research could explore better strategies for assigning global attention automatically, reducing manual task-specific design. There is also potential to combine Longformer-style sparse attention with other efficiency techniques, such as mixture-of-experts models or improved memory mechanisms. Extending these ideas to encoder-decoder and generative models remains an important direction (Beltagy et al., 2020).
 
 ### References
-Beltagy, I., Peters, M. E., & Cohan, A. (2020, April 10). Longformer: The Long-Document Transformer. arXiv.org. https://arxiv.org/abs/2004.05150 
+Beltagy, I., Peters, M. E., & Cohan, A. (2020, April 10). Longformer: The Long-Document Transformer. arXiv.org. https://arxiv.org/abs/2004.05150

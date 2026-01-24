@@ -30,4 +30,4 @@ As models continue to scale, research that bridges algorithm design and hardware
 
 ### References
 
-Dao, T., Fu, D. Y., Ermon, S., Rudra, A., & Ré, C. (2022). FlashAttention: Fast and memory-efficient exact attention with IO-awareness. arXiv. https://arxiv.org/abs/2205.14135 
+Dao, T., Fu, D. Y., Ermon, S., Rudra, A., & Ré, C. (2022). FlashAttention: Fast and memory-efficient exact attention with IO-awareness. arXiv. https://arxiv.org/abs/2205.14135
