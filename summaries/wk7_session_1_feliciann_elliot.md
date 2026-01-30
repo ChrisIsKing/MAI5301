@@ -1,7 +1,7 @@
 Questions
 
-Paper 1 - Training language models to follow instructions with human feedback
-1. RLHF improves helpfulness and safety but introduces minor regressions on some traditional NLP benchmarks (“alignment tax”). How can we design training objectives or RL methods to maximize alignment gains while minimizing performance trade-offs across tasks?
+Paper 1 - Direct Preference Optimization: Your Language Model is Secretly a Reward Model
+1. Does removing the explicit reward model reduce DPO’s ability to generalize to out-of-distribution tasks or unseen instruction types?
 
-Paper 2 - Scaling Instruction-Finetuned Language Models
-1. Based on Flan-PaLM’s human evaluation and compute analysis, how can instruction finetuning improve both the usability and cost-efficiency of deploying large language models in real-world applications?
+Paper 2 - KTO: Model Alignment as Prospect Theoretic Optimization
+1. Could the prospect-theoretic utility optimization in KTO overfit to specific patterns in the training data and thereby generalize poorly to out-of-distribution instructions or domains?
