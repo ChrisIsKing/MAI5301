@@ -1,7 +1,7 @@
 Questions
 
-Paper 1 - Efficient Memory Management for Large Language Model Serving with PagedAttention
-1. How might PagedAttention affect memory usage if the distribution of sequence lengths across requests changes for exaple mostly short sequences vs. mostly long sequences?
+Paper 1 - Fast Inference from Transformers via Speculative Decoding
+1. How does speculative decoding work at a high level?
 
-Paper 2 - Flash-Decoding for long-context inference
-1. How would Flash-Decoding’s performance change if the keys/values were not evenly divisible into equal-sized chunks?
+Paper 2 - Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads
+1. How does Medusa enable parallel token generation during inference?
