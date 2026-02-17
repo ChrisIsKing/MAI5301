@@ -89,7 +89,7 @@ We will read recent papers from top venues including ACL, EMNLP, NAACL, ICML, Ne
 | Week 10 (Tue) | [Measuring Massive Multitask Language Understanding (MMLU)](https://arxiv.org/abs/2009.03300) (Required) | Maryam Bacchus |
 |  | [Holistic Evaluation of Language Models (HELM)](https://arxiv.org/abs/2211.09110) (Required) |  |
 | Week 10 (Thu) | [Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference](https://arxiv.org/abs/2403.04132) (Required) | Feliciann Elliot |
-|  | [AlpacaEval: An Automatic Evaluator of Instruction-following Models](https://github.com/tatsu-lab/alpaca_eval) (Required) |  |
+|  | [On the Measure of Intelligence](https://arxiv.org/abs/1911.01547) (Required) |  |
 |  | **Agents & Agentic Systems** |  |
 | Week 11 (Tue) | [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) (Required) | Daryl Nelson |
 |  | [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) (Required) |  |
