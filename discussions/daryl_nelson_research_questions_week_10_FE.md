@@ -1,4 +1,4 @@
-**On the Measure of Intelligence**\
+**On the Measure of Intelligence**
 Why does Chollet reject universal intelligence? Isn’t the goal of AGI to measure intelligence universally?
 
 
