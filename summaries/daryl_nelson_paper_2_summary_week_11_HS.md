@@ -1,0 +1,11 @@
+**Gorilla: Large Language Model Connected with Massive APIs**
+
+The paper explores how large language models (LLMs) can go beyond just predicting text and actually be connected to massive real-world APIs. The authors point out that even though modern LLMs have gotten really good at tasks like reasoning or writing code, they still often give wrong API calls or hallucinate when asked to use external tools. To address this they propose Gorilla, a fine-tuned LLaMA-based model specifically trained to generate correct API invocations and interpret API documentation.
+
+They build a new dataset called APIBench, which consists of thousands of real API calls scraped from popular model hubs like HuggingFace, TorchHub, and TensorHub, and pair them with synthetic natural-language instructions. Gorilla is trained both with and without a retrieval component that feeds up-to-date API docs during inference, and is evaluated on accuracy of the API call and reduction of hallucination compared to models like GPT-4.
+
+From my understanding the core strength of the work is showing that with the right fine-tuning and retrieval support an LLM can actually select and call real APIs reliably. It seems they are able to significantly reduce hallucination and achieve better functional API usage. The methodology is quite detailed but straightforward: they collect a broad benchmark, teach the model to map instructions to API calls, and test it under different settings.
+
+A weakness might be that the task is still very domain-specific and depends on API documentation quality. There might also be limits in generalizing beyond the machine-learning API space they focus on. Though the goals seem mostly accomplished, the relevance is high if the future of LLM systems involves more tool use and interactions with software ecosystems.
+
+Overall the work is solid and shows a promising way for LLMs to interact with external tools, even if further work is needed to make it broadly applicable across many API types.

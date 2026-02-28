@@ -1,0 +1,7 @@
+**Toolformer: Language Models Can Teach Themselves to Use Tools**
+
+The paper Toolformer: Language Models Can Teach Themselves to Use Tools explores a pretty interesting idea of letting a language model learn how to use external tools by itself, instead of being told how to use them. 
+The authors show that large language models traditionally struggle with certain basic tasks like math or factual lookup, even though they can do many complex things with just examples and prompts. The reason for this research is to help language models take advantage of tools such as calculators, search engines, translation systems, calendars, and question answering APIs, without needing tons of human annotations. 
+
+The methodology they use is quite novel: they let a pretrained LM sample potential API calls, filter those that help reduce prediction errors, and then finetune the model on these calls in a self-supervised way. This means the model learns to choose when to call a tool, what arguments to pass, and how to integrate the results in future predictions. The results show that, on many downstream tasks, the Toolformer model achieves significant zero-shot improvements often matching much larger models without losing its core abilities. A potential strength of the paper is that it improves performance without expensive human labeling and keeps the model general. One weakness might be that it depends on the quality of the external tools it uses. Overall, the goals were accomplished and the work feels relevant for making LMs more practical and capable.
+
