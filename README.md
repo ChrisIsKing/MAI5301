@@ -105,8 +105,8 @@ We will read recent papers from top venues including ACL, EMNLP, NAACL, ICML, Ne
 |  | [AppAgent: Multimodal Agents as Smartphone Users](https://arxiv.org/abs/2312.13771) (Required) |  |
 |  | **Safety, Risks & The Future** |  |
 | Week 14 (Tue) | [Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training](https://arxiv.org/abs/2401.05566) (Required) | Maryam Bacchus |
-|  | [Goal Misgeneralization in Deep Reinforcement Learning](https://arxiv.org/abs/2105.14111) (Required) |  |
-| Week 14 (Thu) | [Constitutional AI: Harmlessness from AI Feedback](https://arxiv.org/abs/2212.08073) (Required) | Feliciann Elliot |
+|  | [Large-scale online deanonymization with LLMs](https://arxiv.org/abs/2602.16800) (Required) |  |
+| Week 14 (Thu) | [Agents of Chaos](https://arxiv.org/abs/2602.20021) (Required) | Feliciann Elliot |
 |  | [Red Teaming Language Models to Reduce Harms](https://arxiv.org/abs/2209.07858) (Required) |  |
 | Week 15 (Tue) | [GPTs are GPTs: An Early Look at the Labor Market Impact Potential](https://arxiv.org/abs/2303.10130) (Required) | Daryl Nelson |
 |  | [Future of Work with AI Agents: Auditing Automation and Augmentation Potential](https://arxiv.org/abs/2506.06576) (Required) | Maryam Bacchus |
