@@ -110,8 +110,8 @@ We will read recent papers from top venues including ACL, EMNLP, NAACL, ICML, Ne
 |  | [Red Teaming Language Models to Reduce Harms](https://arxiv.org/abs/2209.07858) (Required) |  |
 | Week 15 (Tue) | [GPTs are GPTs: An Early Look at the Labor Market Impact Potential](https://arxiv.org/abs/2303.10130) (Required) | Daryl Nelson |
 |  | [Future of Work with AI Agents: Auditing Automation and Augmentation Potential](https://arxiv.org/abs/2506.06576) (Required) | Maryam Bacchus |
-| Week 15 (Thu) | [Levels of Autonomy for AI Agents](https://arxiv.org/abs/2506.12469) (Required) | Hilton Sarius |
-|  | [Sparks of Artificial General Intelligence: Early experiments with GPT-4](https://arxiv.org/abs/2303.12712) (Required) | Feliciann Elliot |
+| Week 15 (Thu) | [Levels of Autonomy for AI Agents](https://arxiv.org/abs/2506.12469) (Required) | Feliciann Elliot |
+|  | [Labor market impacts of AI: A new measure and early evidence](https://www.anthropic.com/research/labor-market-impacts) (Required) | Hilton Sarius |
 
 ## Policies
 
