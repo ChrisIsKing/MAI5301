@@ -1,0 +1,9 @@
+**Large-scale online deanonymization with LLMs**
+
+The paper Large scale online deanonymization with LLMs explores how large language models can be used to identify individuals behind pseudonymous online accounts. The main reason for this research is the increasing gap between perceived online anonymity and the actual ability of modern AI systems to link behavior across platforms. The authors aim to test whether LLMs can scale deanonymization tasks that were previously limited by manual effort and traditional matching techniques.
+
+The methodology is built around a multi step pipeline. First, user generated text is analyzed to extract distinguishing attributes such as writing style, interests, and personal details. Then candidate identities are retrieved from a large pool using embedding similarity. Finally, LLMs are used to reason over the candidates and rank the most likely matches. The approach is evaluated in both closed world and open world settings, using datasets that include cross platform user linking and identity matching tasks.
+
+The results show that LLM based methods significantly outperform baseline approaches that rely on simpler similarity measures. The models achieve strong precision and recall, indicating that deanonymization can be done more effectively at scale than before. This suggests that the goals of demonstrating scalability and improved performance are mostly accomplished.
+
+My understanding of the paper is that it highlights a practical privacy risk that comes from combining language understanding with large data sources. A major strength is the clear experimental design and strong comparison with baselines. A weakness is that real world conditions may be more noisy and less structured than the evaluation setup, which could affect generalization. Overall the work is relevant and raises important concerns about online anonymity.
