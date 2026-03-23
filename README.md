@@ -1,67 +1,46 @@
-### Assignment #4 Reflections
+### Assignment #5 Reflections
 
-This assignment implemented and trained a GPT-style language model from scratch using next-token prediction. The full pipeline included loss computation, training and validation tracking, learning rate scheduling (warmup + cosine decay), text generation with different sampling strategies, checkpointing, and comparison with a pretrained GPT-2 model.
+## 1. Dataset
 
-## Training Setup and Hyperparameters
+The **UCI SMS Spam Collection** contains 5,572 labelled messages, but the original dataset is heavily imbalanced at 86.6% ham and 13.4% spam. To fix this, the dataset was downsampled to a balanced **1,494 examples** (747 spam / 747 ham).
 
-The model was trained with a context length of 128 tokens (CTX_LEN=128). Data loading used BATCH_SIZE=32, and gradient accumulation was enabled with grad_accum_steps=4 to increase the effective batch size without exceeding Tesla T4 GPU memory limits. AdamW was used as the optimizer with a base learning rate of 3e-4. A learning rate schedule combining linear warmup and cosine decay was implemented to stabilize early training and smooth later updates.
+The balanced dataset was then split as follows:
 
-Training ran for approximately 47 minutes before stopping at:
+| Split      | Proportion | Examples (approx.) |
+|------------|------------|---------------------|
+| Training   | ~70%       | ~1,046              |
+| Validation | ~10%       | ~149                |
+| Test       | ~20%       | ~299                |
 
-- Epoch 2  
-- Step 14,000  
-- Training Loss: 0.5597  
-- Validation Loss: 8.4455  
-- Validation Perplexity: 4654.07  
+All messages were tokenized using **tiktoken** and padded or truncated to a fixed length of **120 tokens**.
 
-Although the original target was longer training, the recorded run still demonstrates measurable learning progress.
+---
 
-## Loss Behavior
+## 2. Approach
 
-During training, the training loss decreased significantly from its initial high value, indicating that the model learned token-level structure and local dependencies within the dataset.
+GPT-2's language modelling head was swapped out for a **2-class linear output layer** to turn it into a binary classifier. Two fine-tuning strategies were then compared.
 
-However, validation loss remained high compared to training loss. This suggests:
+### 2.1 Selective Freezing
 
-- Limited generalization due to small dataset size  
-- Overfitting tendencies  
-- Insufficient training duration for broader convergence  
+With selective freezing, most of the model was left unchanged. Only the **last transformer block**, the **final layer norm**, and the **classification head** were trained, which comes to roughly **7.1 million parameters** or about **5.7%** of the full model. This finished training in about **1 minute** and reached a test accuracy of **95.33%**.
 
-Perplexity followed the same trend as validation loss, remaining relatively high, which reflects uncertainty in predictions on unseen data.
+### 2.2 Full Fine-Tuning
 
-## Generated Text Quality
+Full fine-tuning updated all **124.4 million parameters**. A lower learning rate was used to keep training stable across the whole model. It took around **2.6 minutes** and achieved a slightly higher test accuracy of **95.67%**.
 
-Text generation after training showed clear improvement compared to random initialization. The trained model was able to:
+---
 
-- Produce grammatically structured sentences  
-- Reflect stylistic patterns of the training dataset  
-- Maintain short-range coherence  
+## 3. Results Summary
 
-Different decoding strategies showed expected behavior:
+| Strategy           | Parameters Updated | Training Time | Test Accuracy |
+|--------------------|-------------------|---------------|---------------|
+| Selective Freezing | ~7.1M (5.7%)      | ~1 minute     | 95.33%        |
+| Full Fine-Tuning   | 124.4M (100%)     | ~2.6 minutes  | 95.67%        |
 
-- Greedy decoding resulted in repetitive loops.  
-- Temperature + top-k sampling improved diversity.  
-- Temperature + top-p sampling produced the most balanced outputs.  
+---
 
-This demonstrates that both training and decoding strategy affect output quality.
+## 4. Key Takeaway
 
-## Scratch Training vs Pretrained GPT-2
+Both approaches ended up at almost the same accuracy, with only a **0.34 percentage point** difference. Selective freezing is about **3x faster**, uses less memory, and is less likely to overfit on a small dataset like this one. Full fine-tuning did not offer any meaningful improvement to justify the extra time and compute.
 
-A comparison was conducted using the same prompt and sampling settings for both the scratch-trained model and GPT-2.
-
-The scratch-trained model showed dataset-specific learning but lacked strong long-range coherence and semantic depth. In contrast, GPT-2 produced:
-
-- More consistent narrative flow  
-- Stronger contextual understanding  
-- Broader vocabulary and general knowledge  
-
-While training from scratch demonstrates model mechanics and optimization behavior, pretrained models significantly outperform small scratch-trained models in fluency and generalization.
-
-## Limitations
-A limitation of this implementation is the use of a simple regex-based word/punctuation tokenizer rather than a subword tokenizer (e.g., BPE as used in GPT-2). This can increase vocabulary sparsity and reduce generalization, contributing to higher validation loss and perplexity.
-
-## Compute Resources
-
-- GPU: Tesla T4 (15GB VRAM)  
-- Framework: PyTorch  
-- Training Duration: ~47 minutes  
-- Dataset: Tiny Shakespeare - Retrieved from https://github.com/karpathy/char-rnn/tree/master/data/tinyshakespeare
+For small classification tasks using a large pre-trained model, selective freezing is the more practical choice.
