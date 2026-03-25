@@ -1,0 +1,1 @@
+The entire WORKBank framework rests on self-reported desire scores from audio interviews. But behavioral economics consistently shows a gap between what people say they want and what they do when technology is actually placed in front of them. Does worker desire actually predict real-world adoption behavior or just stated preferences?
