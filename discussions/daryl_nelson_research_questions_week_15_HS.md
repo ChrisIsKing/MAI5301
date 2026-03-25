@@ -1,0 +1,1 @@
+If AI exposure is highest in high-skill, high-wage occupations, does this imply a reversal of traditional automation trends that primarily affected low-skill jobs?
