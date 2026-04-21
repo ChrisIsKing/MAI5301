@@ -1,0 +1,9 @@
+**Tree of Thoughts: Deliberate Problem Solving with Large Language Models**
+
+The paper Tree of Thoughts introduces a new way to make large language models better at solving hard problems, by letting them explore many possible reasoning paths instead of just generating text left to right like normal. The authors argue that standard approaches like chain-of-thought prompting can fail on tasks that need planning, lookahead, or backtracking because they just follow one sequence of tokens without considering alternatives .
+
+To address this, they propose the Tree of Thoughts (ToT) framework, where the model builds a tree of intermediate coherent steps, called thoughts, and uses search strategies like breadth-first or depth-first to explore different branches and evaluate which ones lead to better solutions . The methodology combines LM-generated candidates with evaluation heuristics and search heuristics, without extra training.
+
+Experiments on three tasks Game of 24, Creative Writing planning, and Mini Crosswords show big improvements. For example, ToT boosts success on Game of 24 from 4% with GPT-4 chain-of-thought to 74% with ToT . This suggests the goals were basically met and the method actually helps problem solving where simpler prompts don’t.
+
+I understood the paper as shifting from single path reasoning to a more deliberate search over possibilities. Strengths include a clear motivation grounded in human cognitive ideas and strong empirical gains. But a weakness is that the framework adds complexity and cost, and it might not scale easily to really huge trees. Overall the work seems relevant and a solid step toward better LLM reasoning.
