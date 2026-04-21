@@ -66,9 +66,9 @@ We will read recent papers from top venues including ACL, EMNLP, NAACL, ICML, Ne
 |  | [Mixtral of Experts](https://arxiv.org/abs/2401.04088) (Required) |  |  |
 | Week 5 (Thu) | [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135) (Required) | Hilton Sarius | [📂](presentations/week5/) [📝](summaries/week5/) [💬](discussions/week5/) |
 |  | [Longformer: The Long-Document Transformer](https://arxiv.org/abs/2004.05150) (Required) |  |  |
-| Week 6 (Tue) | [RoFormer: Enhanced Transformer with Rotary Position Embedding](https://arxiv.org/abs/2104.09864) (Required) | Maryam Bacchus |  |
+| Week 6 (Tue) | [RoFormer: Enhanced Transformer with Rotary Position Embedding](https://arxiv.org/abs/2104.09864) (Required) | Maryam Bacchus | [📂](presentations/week6/) [📝](summaries/week6/) [💬](discussions/week6/) |
 |  | [Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation (ALiBi)](https://arxiv.org/abs/2108.12409) (Required) |  |  |
-| Week 6 (Thu) | [GLU Variants Improve Transformer (SwiGLU)](https://arxiv.org/abs/2002.05202) (Required) | Feliciann Elliot |  |
+| Week 6 (Thu) | [GLU Variants Improve Transformer (SwiGLU)](https://arxiv.org/abs/2002.05202) (Required) | Feliciann Elliot | [📂](presentations/week6/) [📝](summaries/week6/) [💬](discussions/week6/) |
 |  | [GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints](https://arxiv.org/abs/2305.13245) (Required) |  |  |
 |  | **Alignment & Instruction Tuning** |  |  |
 | Week 7 (Tue) | [Training language models to follow instructions with human feedback (InstructGPT)](https://arxiv.org/abs/2203.02155) (Required) | Daryl Nelson |  |
