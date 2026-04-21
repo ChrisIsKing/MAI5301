@@ -62,9 +62,9 @@ We will read recent papers from top venues including ACL, EMNLP, NAACL, ICML, Ne
 | Week 4 (Thu) | [Dolma: An Open Corpus of Three Trillion Tokens for LLM Pretraining Research](https://arxiv.org/abs/2402.00159) (Required) | Feliciann Elliot | [📂](presentations/week4/) [📝](summaries/week4/) [💬](discussions/week4/) |
 |  | [The Pile: An 800GB Dataset of Diverse Text for Language Modeling](https://arxiv.org/abs/2101.00027) (Required) |  |  |
 |  | **Model Architectures** |  |  |
-| Week 5 (Tue) | [Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity](https://arxiv.org/abs/2101.03961) (Required) | Daryl Nelson |  |
+| Week 5 (Tue) | [Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity](https://arxiv.org/abs/2101.03961) (Required) | Daryl Nelson | [📂](presentations/week5/) [📝](summaries/week5/) [💬](discussions/week5/) |
 |  | [Mixtral of Experts](https://arxiv.org/abs/2401.04088) (Required) |  |  |
-| Week 5 (Thu) | [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135) (Required) | Hilton Sarius |  |
+| Week 5 (Thu) | [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135) (Required) | Hilton Sarius | [📂](presentations/week5/) [📝](summaries/week5/) [💬](discussions/week5/) |
 |  | [Longformer: The Long-Document Transformer](https://arxiv.org/abs/2004.05150) (Required) |  |  |
 | Week 6 (Tue) | [RoFormer: Enhanced Transformer with Rotary Position Embedding](https://arxiv.org/abs/2104.09864) (Required) | Maryam Bacchus |  |
 |  | [Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation (ALiBi)](https://arxiv.org/abs/2108.12409) (Required) |  |  |
