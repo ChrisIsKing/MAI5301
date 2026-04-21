@@ -86,9 +86,9 @@ We will read recent papers from top venues including ACL, EMNLP, NAACL, ICML, Ne
 | Week 9 (Thu) | [Fast Inference from Transformers via Speculative Decoding](https://arxiv.org/abs/2211.17192) (Required) | Hilton Sarius | [📂](presentations/week9/) [📝](summaries/week9/) [💬](discussions/week9/) |
 |  | [Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads](https://arxiv.org/abs/2401.10774) (Required) |  |  |
 |  | **Evaluation & Benchmarks** |  |  |
-| Week 10 (Tue) | [Measuring Massive Multitask Language Understanding (MMLU)](https://arxiv.org/abs/2009.03300) (Required) | Maryam Bacchus |  |
+| Week 10 (Tue) | [Measuring Massive Multitask Language Understanding (MMLU)](https://arxiv.org/abs/2009.03300) (Required) | Maryam Bacchus | [📂](presentations/week10/) [📝](summaries/week10/) [💬](discussions/week10/) |
 |  | [Holistic Evaluation of Language Models (HELM)](https://arxiv.org/abs/2211.09110) (Required) |  |  |
-| Week 10 (Thu) | [Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference](https://arxiv.org/abs/2403.04132) (Required) | Feliciann Elliot |  |
+| Week 10 (Thu) | [Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference](https://arxiv.org/abs/2403.04132) (Required) | Feliciann Elliot | [📂](presentations/week10/) [📝](summaries/week10/) [💬](discussions/week10/) |
 |  | [On the Measure of Intelligence](https://arxiv.org/abs/1911.01547) (Required) |  |  |
 |  | **Agents & Agentic Systems** |  |  |
 | Week 11 (Tue) | [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) (Required) | Daryl Nelson |  |
