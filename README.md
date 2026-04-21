@@ -81,9 +81,9 @@ We will read recent papers from top venues including ACL, EMNLP, NAACL, ICML, Ne
 | Week 8 (Thu) | [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) (Required) | Feliciann Elliot | [📂](presentations/week8/) [📝](summaries/week8/) [💬](discussions/week8/) |
 |  | [Let's Verify Step by Step (Process Reward Models)](https://arxiv.org/abs/2305.20050) (Required) |  |  |
 |  | **Inference Economics** |  |  |
-| Week 9 (Tue) | [Efficient Memory Management for Large Language Model Serving with PagedAttention (vLLM)](https://arxiv.org/abs/2309.06180) (Required) | Daryl Nelson |  |
+| Week 9 (Tue) | [Efficient Memory Management for Large Language Model Serving with PagedAttention (vLLM)](https://arxiv.org/abs/2309.06180) (Required) | Daryl Nelson | [📂](presentations/week9/) [📝](summaries/week9/) [💬](discussions/week9/) |
 |  | [Flash-Decoding: Faster Attention for Long Context Inference](https://crfm.stanford.edu/2023/10/12/flashdecoding.html) (Required) |  |  |
-| Week 9 (Thu) | [Fast Inference from Transformers via Speculative Decoding](https://arxiv.org/abs/2211.17192) (Required) | Hilton Sarius |  |
+| Week 9 (Thu) | [Fast Inference from Transformers via Speculative Decoding](https://arxiv.org/abs/2211.17192) (Required) | Hilton Sarius | [📂](presentations/week9/) [📝](summaries/week9/) [💬](discussions/week9/) |
 |  | [Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads](https://arxiv.org/abs/2401.10774) (Required) |  |  |
 |  | **Evaluation & Benchmarks** |  |  |
 | Week 10 (Tue) | [Measuring Massive Multitask Language Understanding (MMLU)](https://arxiv.org/abs/2009.03300) (Required) | Maryam Bacchus |  |
