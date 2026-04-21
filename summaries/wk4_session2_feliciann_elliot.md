@@ -1,0 +1,25 @@
+### Problem Addressed and Problem Importance
+The paper focuses on the growing difficulty of training extremely large language models as they continue to increase in size every year. Modern models now contain billions or even trillions of parameters, which creates serious challenges for training on existing hardware (Narayanan et al., 2021). One major problem that exists is that the available memory on a single GPU is not enough to store these large models. Additionally, the amount of computation required would take an unrealistic amount of time if training were done on only one device.
+
+For example, the authors explain that training a model the size of GPT-3 on a single GPU would take hundreds of years, which is impractical (Narayanan et al., 2021). If researchers are unable to train these models efficiently, then progress in the field experiences a significant strain in development. 
+
+### State of Related Works in This Topic
+Earlier work in this area introduced different forms of parallelism to help scale training, however, each approach had its own limitations when used alone (Narayanan et al., 2021). Data parallelism was commonly used because it is simple and effective, but it requires that the full model fits on a single GPU, which is no longer realistic for very large models.
+
+Tensor model parallelism was introduced to split computations inside each layer across GPUs, which works well within a single server. However, when this approach is extended across multiple servers, communication becomes much slower and performance drops. Pipeline parallelism offered another solution by dividing model layers across GPUs. This method often suffers from idle time, where GPUs wait for others to finish processing before proceeding. Systems such as GPipe and PipeDream attempted to reduce these inefficiencies, yet they often introduced high memory usage or relaxed training rules that could affect correctness (Narayanan et al., 2021). Overall, prior systems struggled to combine these techniques effectively at enormous scales.
+
+### Proposed Solution
+The authors propose a combined approach known as PTD-P, which integrates pipeline parallelism, tensor parallelism, and data parallelism into a single training strategy (Narayanan et al., 2021). Instead of relying on only one type of parallelism, each method is used where it performs best. Tensor parallelism is applied within a server where communication is fast, while pipeline parallelism is used across servers to divide model layers. Data parallelism is then added to further scale training across thousands of GPUs.
+
+A key contribution of the paper is the interleaved pipeline schedule. Rather than assigning one continuous block of layers to each GPU, each device is given multiple smaller chunks from different parts of the model. This reduces the amount of time GPUs spend idle, which improves overall throughput. The authors also introduced communication optimizations, such as scatter and gather operations, to reduce network overhead. Using this approach, they were able to train a model with one trillion parameters on over 3000 GPUs while achieving high hardware utilization (Narayanan et al., 2021).
+
+### Drawbacks and Limitations
+The authors noted that poor choices in combining pipeline and tensor parallelism can lead to significantly lower throughput, even on fast hardware (Narayanan et al., 2021). This means the system requires careful tuning and is not easy to configure without a deep understanding.
+
+Another limitation is the increased communication required by the interleaved pipeline schedule. While it reduces idle time, it also depends heavily on high-speed interconnects such as NVLink and InfiniBand. This makes the approach less accessible for clusters with slower networking. In addition, the system relies on activation recomputation to reduce memory usage, which increases computation since some forward passes must be repeated. Performance is also sensitive to parameters such as microbatch size, which must be tuned differently for each model and hardware setup.
+
+### Future Research
+For future work, the authors suggest exploring pipeline strategies that relax strict training semantics, which could potentially remove pipeline idle time entirely (Narayanan et al., 2021). However, this may introduce new challenges related to training stability and convergence. They also mention that while their experiments focus on NVIDIA GPUs, the core ideas could be applied to other accelerator hardware.
+
+### References
+Narayanan, D., Shoeybi, M., Casper, J., LeGresley, P., Patwary, M., Korthikanti, V. A., Vainbrand, D., Kashinkunti, P., Bernauer, J., Catanzaro, B., Phanishayee, A., & Zaharia, M. (2021, April 9). Efficient large-scale language model training on GPU clusters using Megatron-LM. arXiv. https://arxiv.org/abs/2104.04473
