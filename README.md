@@ -53,13 +53,13 @@ We will read recent papers from top venues including ACL, EMNLP, NAACL, ICML, Ne
 |  | [How to Give a Bad Talk](http://www.cs.berkeley.edu/~pattrsn/talks/BadTalk.pdf) (Required) |  |  |
 |  | [Writing Reviews for Systems Conferences](http://people.inf.ethz.ch/troscoe/pubs/review-writing.pdf) (Required) |  |  |
 |  | **Pre-training & Scaling** |  |  |
-| Week 3 (Tue) | [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361) (Required) | Daryl Nelson | [📂 Slides](presentations/week3/) <br> [📝 Summaries](summaries/week3/) <br> [💬 Discussions](discussions/week3/) |
+| Week 3 (Tue) | [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361) (Required) | Daryl Nelson | [📂](presentations/week3/) [📝](summaries/week3/) [💬](discussions/week3/) |
 |  | [Training Compute-Optimal Large Language Models (Chinchilla)](https://arxiv.org/abs/2203.15556) (Required) |  |  |
-| Week 3 (Thu) | [Emergent Abilities of Large Language Models](https://arxiv.org/abs/2206.07682) (Required) | Hilton Sarius |  |
+| Week 3 (Thu) | [Emergent Abilities of Large Language Models](https://arxiv.org/abs/2206.07682) (Required) | Hilton Sarius | [📂](presentations/week3/) [📝](summaries/week3/) [💬](discussions/week3/) |
 |  | [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) (Required) |  |  |
-| Week 4 (Tue) | [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971) (Required) | Maryam Bacchus | [📂 Slides](presentations/week4/) <br> [📝 Summaries](summaries/week4/) <br> [💬 Discussions](discussions/week4/) |
+| Week 4 (Tue) | [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971) (Required) | Maryam Bacchus | [📂](presentations/week4/) [📝](summaries/week4/) [💬](discussions/week4/) |
 |  | [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/abs/2104.04473) (Required) |  |  |
-| Week 4 (Thu) | [Dolma: An Open Corpus of Three Trillion Tokens for LLM Pretraining Research](https://arxiv.org/abs/2402.00159) (Required) | Feliciann Elliot |  |
+| Week 4 (Thu) | [Dolma: An Open Corpus of Three Trillion Tokens for LLM Pretraining Research](https://arxiv.org/abs/2402.00159) (Required) | Feliciann Elliot | [📂](presentations/week4/) [📝](summaries/week4/) [💬](discussions/week4/) |
 |  | [The Pile: An 800GB Dataset of Diverse Text for Language Modeling](https://arxiv.org/abs/2101.00027) (Required) |  |  |
 |  | **Model Architectures** |  |  |
 | Week 5 (Tue) | [Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity](https://arxiv.org/abs/2101.03961) (Required) | Daryl Nelson |  |
