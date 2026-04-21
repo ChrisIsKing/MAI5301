@@ -99,9 +99,9 @@ We will read recent papers from top venues including ACL, EMNLP, NAACL, ICML, Ne
 |  | [CAMEL: Communicative Agents for "Mind" Exploration of Large Scale Society](https://arxiv.org/abs/2303.17760) (Required) |  |  |
 | Week 12 (Thu) | [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291) (Required) | Feliciann Elliot | [📂](presentations/week12/) [📝](summaries/week12/) [💬](discussions/week12/) |
 |  | [SWE-bench: Can Language Models Resolve Real-World GitHub Issues?](https://arxiv.org/abs/2310.06770) (Required) |  |  |
-| Week 13 (Tue) | [WebArena: A Realistic Web Environment for Building Autonomous Agents](https://arxiv.org/abs/2307.13854) (Required) | Daryl Nelson |  |
+| Week 13 (Tue) | [WebArena: A Realistic Web Environment for Building Autonomous Agents](https://arxiv.org/abs/2307.13854) (Required) | Daryl Nelson | [📂](presentations/week13/) [📝](summaries/week13/) [💬](discussions/week13/) |
 |  | [Mind2Web: Towards a Generalist Agent for the Web](https://arxiv.org/abs/2306.06070) (Required) |  |  |
-| Week 13 (Thu) | [OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks](https://arxiv.org/abs/2404.07972) (Required) | Hilton Sarius |  |
+| Week 13 (Thu) | [OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks](https://arxiv.org/abs/2404.07972) (Required) | Hilton Sarius | [📂](presentations/week13/) [📝](summaries/week13/) [💬](discussions/week13/) |
 |  | [AppAgent: Multimodal Agents as Smartphone Users](https://arxiv.org/abs/2312.13771) (Required) |  |  |
 |  | **Safety, Risks & The Future** |  |  |
 | Week 14 (Tue) | [Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training](https://arxiv.org/abs/2401.05566) (Required) | Maryam Bacchus |  |
