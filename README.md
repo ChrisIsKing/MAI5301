@@ -71,9 +71,9 @@ We will read recent papers from top venues including ACL, EMNLP, NAACL, ICML, Ne
 | Week 6 (Thu) | [GLU Variants Improve Transformer (SwiGLU)](https://arxiv.org/abs/2002.05202) (Required) | Feliciann Elliot | [📂](presentations/week6/) [📝](summaries/week6/) [💬](discussions/week6/) |
 |  | [GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints](https://arxiv.org/abs/2305.13245) (Required) |  |  |
 |  | **Alignment & Instruction Tuning** |  |  |
-| Week 7 (Tue) | [Training language models to follow instructions with human feedback (InstructGPT)](https://arxiv.org/abs/2203.02155) (Required) | Daryl Nelson |  |
+| Week 7 (Tue) | [Training language models to follow instructions with human feedback (InstructGPT)](https://arxiv.org/abs/2203.02155) (Required) | Daryl Nelson | [📂](presentations/week7/) [📝](summaries/week7/) [💬](discussions/week7/) |
 |  | [Scaling Instruction-Finetuned Language Models (FLAN)](https://arxiv.org/abs/2210.11416) (Required) |  |  |
-| Week 7 (Thu) | [Direct Preference Optimization: Your Language Model is Secretly a Reward Model (DPO)](https://arxiv.org/abs/2305.18290) (Required) | Hilton Sarius |  |
+| Week 7 (Thu) | [Direct Preference Optimization: Your Language Model is Secretly a Reward Model (DPO)](https://arxiv.org/abs/2305.18290) (Required) | Hilton Sarius | [📂](presentations/week7/) [📝](summaries/week7/) [💬](discussions/week7/) |
 |  | [KTO: Model Alignment as Prospect Theoretic Optimization](https://arxiv.org/abs/2402.01306) (Required) |  |  |
 |  | **Reasoning & "System 2" Thinking** |  |  |
 | Week 8 (Tue) | [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903) (Required) | Maryam Bacchus |  |
