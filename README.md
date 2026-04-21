@@ -95,9 +95,9 @@ We will read recent papers from top venues including ACL, EMNLP, NAACL, ICML, Ne
 |  | [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) (Required) |  |  |
 | Week 11 (Thu) | [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/abs/2302.04761) (Required) | Hilton Sarius | [📂](presentations/week11/) [📝](summaries/week11/) [💬](discussions/week11/) |
 |  | [Gorilla: Large Language Model Connected with Massive APIs](https://arxiv.org/abs/2305.15334) (Required) |  |  |
-| Week 12 (Tue) | [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) (Required) | Maryam Bacchus |  |
+| Week 12 (Tue) | [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) (Required) | Maryam Bacchus | [📂](presentations/week12/) [📝](summaries/week12/) [💬](discussions/week12/) |
 |  | [CAMEL: Communicative Agents for "Mind" Exploration of Large Scale Society](https://arxiv.org/abs/2303.17760) (Required) |  |  |
-| Week 12 (Thu) | [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291) (Required) | Feliciann Elliot |  |
+| Week 12 (Thu) | [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291) (Required) | Feliciann Elliot | [📂](presentations/week12/) [📝](summaries/week12/) [💬](discussions/week12/) |
 |  | [SWE-bench: Can Language Models Resolve Real-World GitHub Issues?](https://arxiv.org/abs/2310.06770) (Required) |  |  |
 | Week 13 (Tue) | [WebArena: A Realistic Web Environment for Building Autonomous Agents](https://arxiv.org/abs/2307.13854) (Required) | Daryl Nelson |  |
 |  | [Mind2Web: Towards a Generalist Agent for the Web](https://arxiv.org/abs/2306.06070) (Required) |  |  |
