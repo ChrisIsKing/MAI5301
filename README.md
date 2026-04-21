@@ -91,9 +91,9 @@ We will read recent papers from top venues including ACL, EMNLP, NAACL, ICML, Ne
 | Week 10 (Thu) | [Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference](https://arxiv.org/abs/2403.04132) (Required) | Feliciann Elliot | [📂](presentations/week10/) [📝](summaries/week10/) [💬](discussions/week10/) |
 |  | [On the Measure of Intelligence](https://arxiv.org/abs/1911.01547) (Required) |  |  |
 |  | **Agents & Agentic Systems** |  |  |
-| Week 11 (Tue) | [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) (Required) | Daryl Nelson |  |
+| Week 11 (Tue) | [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) (Required) | Daryl Nelson | [📂](presentations/week11/) [📝](summaries/week11/) [💬](discussions/week11/) |
 |  | [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) (Required) |  |  |
-| Week 11 (Thu) | [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/abs/2302.04761) (Required) | Hilton Sarius |  |
+| Week 11 (Thu) | [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/abs/2302.04761) (Required) | Hilton Sarius | [📂](presentations/week11/) [📝](summaries/week11/) [💬](discussions/week11/) |
 |  | [Gorilla: Large Language Model Connected with Massive APIs](https://arxiv.org/abs/2305.15334) (Required) |  |  |
 | Week 12 (Tue) | [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) (Required) | Maryam Bacchus |  |
 |  | [CAMEL: Communicative Agents for "Mind" Exploration of Large Scale Society](https://arxiv.org/abs/2303.17760) (Required) |  |  |
