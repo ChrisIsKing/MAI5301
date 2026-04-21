@@ -76,9 +76,9 @@ We will read recent papers from top venues including ACL, EMNLP, NAACL, ICML, Ne
 | Week 7 (Thu) | [Direct Preference Optimization: Your Language Model is Secretly a Reward Model (DPO)](https://arxiv.org/abs/2305.18290) (Required) | Hilton Sarius | [📂](presentations/week7/) [📝](summaries/week7/) [💬](discussions/week7/) |
 |  | [KTO: Model Alignment as Prospect Theoretic Optimization](https://arxiv.org/abs/2402.01306) (Required) |  |  |
 |  | **Reasoning & "System 2" Thinking** |  |  |
-| Week 8 (Tue) | [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903) (Required) | Maryam Bacchus |  |
+| Week 8 (Tue) | [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903) (Required) | Maryam Bacchus | [📂](presentations/week8/) [📝](summaries/week8/) [💬](discussions/week8/) |
 |  | [Self-Consistency Improves Chain of Thought Reasoning in Language Models](https://arxiv.org/abs/2203.11171) (Required) |  |  |
-| Week 8 (Thu) | [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) (Required) | Feliciann Elliot |  |
+| Week 8 (Thu) | [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) (Required) | Feliciann Elliot | [📂](presentations/week8/) [📝](summaries/week8/) [💬](discussions/week8/) |
 |  | [Let's Verify Step by Step (Process Reward Models)](https://arxiv.org/abs/2305.20050) (Required) |  |  |
 |  | **Inference Economics** |  |  |
 | Week 9 (Tue) | [Efficient Memory Management for Large Language Model Serving with PagedAttention (vLLM)](https://arxiv.org/abs/2309.06180) (Required) | Daryl Nelson |  |
