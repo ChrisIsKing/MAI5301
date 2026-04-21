@@ -1,0 +1,1 @@
+The paper proposes autonomy certificates as a governance tool. How might these certificates work in practice for multi-agent systems, and what challenges do you foresee in verifying or enforcing them across different developers or deployment environments?
