@@ -104,9 +104,9 @@ We will read recent papers from top venues including ACL, EMNLP, NAACL, ICML, Ne
 | Week 13 (Thu) | [OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks](https://arxiv.org/abs/2404.07972) (Required) | Hilton Sarius | [📂](presentations/week13/) [📝](summaries/week13/) [💬](discussions/week13/) |
 |  | [AppAgent: Multimodal Agents as Smartphone Users](https://arxiv.org/abs/2312.13771) (Required) |  |  |
 |  | **Safety, Risks & The Future** |  |  |
-| Week 14 (Tue) | [Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training](https://arxiv.org/abs/2401.05566) (Required) | Maryam Bacchus |  |
+| Week 14 (Tue) | [Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training](https://arxiv.org/abs/2401.05566) (Required) | Maryam Bacchus | [📂](presentations/week14/) [📝](summaries/week14/) [💬](discussions/week14/) |
 |  | [Large-scale online deanonymization with LLMs](https://arxiv.org/abs/2602.16800) (Required) |  |  |
-| Week 14 (Thu) | [Agents of Chaos](https://arxiv.org/abs/2602.20021) (Required) | Feliciann Elliot |  |
+| Week 14 (Thu) | [Agents of Chaos](https://arxiv.org/abs/2602.20021) (Required) | Feliciann Elliot | [📂](presentations/week14/) [📝](summaries/week14/) [💬](discussions/week14/) |
 |  | [Red Teaming Language Models to Reduce Harms](https://arxiv.org/abs/2209.07858) (Required) |  |  |
 | Week 15 (Tue) | [GPTs are GPTs: An Early Look at the Labor Market Impact Potential](https://arxiv.org/abs/2303.10130) (Required) | Daryl Nelson |  |
 |  | [Future of Work with AI Agents: Auditing Automation and Augmentation Potential](https://arxiv.org/abs/2506.06576) (Required) | Maryam Bacchus |  |
