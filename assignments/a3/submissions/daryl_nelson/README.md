@@ -1,0 +1,15 @@
+**The Role of Each Component in the Architecture**
+
+A GPT model consists of five core components that work together to process and generate text. The token embedding layer converts discrete token IDs into continuous vectors that neural networks can process, accounting for a large share of total parameters. Positional embeddings add information about word order, since attention alone is order-independent; sinusoidal embeddings allow better generalization to longer sequences. Multi-head attention enables tokens to focus on different parts of the sequence using query, key, and value projections, with multiple heads learning different relationships (local, semantic, grammatical). The feed-forward network (a two-layer MLP with GELU activation) expands and compresses representations to add nonlinearity and learning capacity. Layer normalization (used in a pre-norm setup) stabilizes training by keeping activations well-scaled and preventing gradient issues.
+
+**Why Residual Connections Are Critical**
+
+Residual connections solve the vanishing gradient problem by adding skip pathways that carry the original input forward. Instead of forcing gradients to pass only through multiple transformations (which shrinks them), residuals allow gradients to flow directly through identity paths. This makes deep networks trainable and stable. Without residuals, even moderately deep models would struggle to learn, but with them, architectures like GPT-2 can scale to many layers. Residuals appear after both attention and feed-forward sublayers, allowing each layer to either transform information or pass it through unchanged.
+
+**Parameter Count Breakdown by Component**
+
+Most parameters in a transformer come from embeddings and transformer blocks. Token embeddings scale with vocabulary size × embedding dimension, while positional embeddings scale with context length × embedding dimension. Within each transformer block, multi-head attention parameters scale roughly with four times the embedding dimension squared (for Q, K, V, and output projections). The feed-forward network typically uses even more parameters due to the 4× dimensional expansion. As embedding size increases, attention parameters grow quadratically, explaining why large models have millions or billions of parameters. Techniques like weight tying can reduce total parameter count by sharing embedding and output weights.
+
+**Sample Generation Behavior Before Training**
+
+Before training, the model generates completely random sequences because its weights are randomly initialized and contain no learned patterns. Output tokens are spread across the vocabulary with high variance, producing gibberish. Temperature controls randomness by sharpening (low temperature) or flattening (high temperature) the probability distribution. Top-k sampling restricts choices to the most likely tokens, slightly reducing chaos. However, without training through backpropagation, the model has no meaningful token relationships, so coherent text only emerges after learning from real data.
